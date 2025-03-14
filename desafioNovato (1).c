@@ -60,6 +60,10 @@ int main () {
     getchar();
     fgets(cidade2, sizeof(cidade2), stdin);
 
+    printf("Insira o número de habitantes da cidade.\n");
+    printf("População: ");
+    scanf("%d", &populacao2);
+
     printf("Área territorial da cidade.\n");
     printf("Área km²: ");
     scanf("  %f", &area2);
@@ -79,7 +83,7 @@ int main () {
 
     printf("Estado: %c\n", estado1);
     printf("Código: %c%2s\n", estado1, codigo1);
-    printf("Cidade: %d\n", cidade1);
+    printf("Cidade: %s", cidade1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f\n", area1);
     printf("Pib: %.2f\n", pib1);
@@ -92,7 +96,7 @@ int main () {
 
     printf("Estado: %c\n", estado2);
     printf("Código: %c%2s\n", estado2, codigo2);
-    printf("Cidade: %d\n", cidade2);
+    printf("Cidade: %s", cidade2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f\n", area2);
     printf("Pib: %.2f\n", pib2);
