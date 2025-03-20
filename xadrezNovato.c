@@ -6,7 +6,7 @@ int main() {
     int bispo = 1;
     int rainha = 1;
     int cavalo = 1;
-    int opçao;
+    int opcao;
 
             //Entrada de dados.
 
@@ -17,11 +17,11 @@ int main() {
     printf("4. Mover o Cavalo \n");
     printf("5. Sair do Jogo \n");
     printf("Escolha uma opção \n");
-    scanf("%d", &opçao);
+    scanf("%d", &opcao);
 
             //Menu.    
 
-    switch (opçao)
+    switch (opcao)
     {
     case 1:
         printf("Você escolheu a torre...\n");
@@ -60,9 +60,9 @@ int main() {
         printf("3. Para baixo à direita\n"),
         printf("4. Para baixo à esquerda\n");
         printf("Escolha: \n");
-        scanf("%d", &opçao);
+        scanf("%d", &opcao);
              
-            switch (opçao)
+            switch (opcao)
             {
             case 1:
                 printf("Você escolheu está opção... \n");
