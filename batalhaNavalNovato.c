@@ -14,6 +14,7 @@ int main() {
         matriz[5 + i][7] = navio;
 
     // Exibe o tabuleiro
+    printf(" *B A T A L H A  N A V A L*\n\n");
     printf("   A B C D E F G H I J\n");
     for (i = 0; i < 10; i++) {
         printf("%2d ", i);
@@ -24,3 +25,4 @@ int main() {
 
     return 0;
 }
+
